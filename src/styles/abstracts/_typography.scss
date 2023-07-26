@@ -1,0 +1,15 @@
+// add types here
+
+@import 'https://fonts.googleapis.com/css2?family=Barlow&display=swap';
+
+// @import url('../../assets/fonts/futura/futura\ medium\ bt.ttf');
+
+@font-face {
+    font-family: futura-medium;
+    src: url('../../assets/fonts/futura/futura\ medium\ bt.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+$barlow: 'Barlow', sans-serif;
+$futura: futura-medium, sans-serif;

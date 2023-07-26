@@ -1,0 +1,16 @@
+@use './config.scss' as *;
+@use './resets' as *;
+
+body {
+    font-family: $futura;
+    color: $light-para;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $barlow;
+    color: $primary-color;
+}

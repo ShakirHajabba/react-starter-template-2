@@ -1,0 +1,15 @@
+@use './styles/config.scss' as *;
+
+.container {
+    /* change as per requirement */
+    margin: 0;
+    background-color: red;
+    
+    @include mobile {
+        background-color: blue;
+    }
+    @include mobile-small {
+        background-color: green;
+    }
+
+}

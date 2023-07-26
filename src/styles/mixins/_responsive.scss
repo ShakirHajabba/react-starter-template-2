@@ -1,0 +1,17 @@
+$mobile-small: 372px;
+$mobile: 768px;
+$desktop: 1440px;
+$screen-large: 1920px;
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+      @content;
+  }
+}
+
+@mixin mobile-small {
+  @media (max-width: $mobile-small) {
+      @content;
+  }
+}
+
