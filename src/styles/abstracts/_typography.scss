@@ -1,15 +1,9 @@
-// add types here
+// Fonts
+// Headings - Work Sans
+@import 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap';
 
-@import 'https://fonts.googleapis.com/css2?family=Barlow&display=swap';
+// Body Text - Montserrat
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap';
 
-// @import url('../../assets/fonts/futura/futura\ medium\ bt.ttf');
-
-@font-face {
-    font-family: futura-medium;
-    src: url('../../assets/fonts/futura/futura\ medium\ bt.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 400;
-  }
-
-$barlow: 'Barlow', sans-serif;
-$futura: futura-medium, sans-serif;
+$ff-heading: 'Work Sans', sans-serif;
+$ff-body: 'Montserrat', sans-serif;

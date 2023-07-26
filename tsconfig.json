@@ -27,8 +27,8 @@
     "paths": {
       "@api/*": ["api/*"],
       "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"],
-      "@enums/*": ["enums/*"],
+      "components/*": ["components/*"],
+      "enums/*": ["enums/*"],
       "@hooks/*": ["hooks/*"],
       "@pages/*":["pages/*"],
       "@redux/*": ["redux/*"],
